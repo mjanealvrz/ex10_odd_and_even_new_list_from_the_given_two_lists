@@ -10,6 +10,7 @@ list1 = [10, 20, 25, 30, 35]
 list2 = [40, 45, 60, 75, 90]
 
 # Initialize empty list and store results
+empty_list = []
 # Using for loop iterate the list number 1
 
     # Check if the number is odd
