@@ -25,5 +25,6 @@ for numbers in (list2):
       if numbers % 2 == 0:
     # If it's even, append it to the result_list
             empty_list.append(numbers)
+
 # Print results 
-print("The new list is", empty_list)
+print("The new list is", *empty_list,".")
