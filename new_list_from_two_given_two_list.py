@@ -20,7 +20,10 @@ for number in (list1):
            empty_list.append(number)
 
 # Using for loop iterate the list number 2
+for numbers in (list2):
     # Check if the number is even
+      if numbers % 2 == 0:
     # If it's even, append it to the result_list
+            empty_list.append(numbers)
 # Print results 
-print("The new list is", empty_list
+print("The new list is", empty_list)
