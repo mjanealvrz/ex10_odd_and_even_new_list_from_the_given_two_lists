@@ -6,8 +6,14 @@
 # Pseudocode
 
 # Initialize  the given list
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
+
 # Initialize empty list and store results
 # Using for loop iterate the list number 1
+for number in (list1):
+    if number % 2 != 0:
+        result_list.append(number)
     # Check if the number is odd
     # If it's odd, append it to the result_list
 # Using for loop iterate the list number 2
