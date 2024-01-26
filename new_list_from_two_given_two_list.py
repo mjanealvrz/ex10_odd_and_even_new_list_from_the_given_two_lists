@@ -11,11 +11,16 @@ list2 = [40, 45, 60, 75, 90]
 
 # Initialize empty list and store results
 empty_list = []
-# Using for loop iterate the list number 1
 
+# Using for loop iterate the list number 1
+for number in (list1):   
     # Check if the number is odd
-    # If it's odd, append it to the result_list
+     if number % 2 != 0:
+    # If it's odd, append it to the empty_list
+           empty_list.append(number)
+
 # Using for loop iterate the list number 2
     # Check if the number is even
     # If it's even, append it to the result_list
 # Print results 
+print("The new list is", empty_list
